@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "EdhesiveAggregator": {
+      "commandName": "Project",
+      "commandLineArgs": "2020-10-20T0052_Grades-AP_CS_A_(6d4a7f).csv"
+    }
+  }
+}
