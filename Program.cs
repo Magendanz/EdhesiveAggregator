@@ -44,7 +44,7 @@ namespace EdhesiveAggregator
 
         static void AggregateColumns(MutableDataTable dt, string str)
         {
-            var pattern = @$"(Unit \d+: )Lesson \d+ - {str}.+";
+            var pattern = @$"(Unit \d+: )Lesson \d.+?- {str}.+";
             var input = string.Join('\n', dt.ColumnNames.ToArray());
             var matches = Regex.Matches(input, pattern);
             var names = new List<string>();
