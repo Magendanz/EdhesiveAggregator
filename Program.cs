@@ -11,12 +11,13 @@ namespace EdhesiveAggregator
     {
         static void Main(string[] args)
         {
-            var filename = args[0];
-            if (String.IsNullOrEmpty(filename))
+            if (args.Length == 0)
             {
                 Console.WriteLine("Usage: EdhesiveAggregator <file.csv>");
                 return;
             }
+            var filename = args[0];
+
             // Load CSV file that has been exported from Canvas gradebook
             var dt = DataTable.New.ReadCsv(filename);
 
