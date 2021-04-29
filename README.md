@@ -1,5 +1,5 @@
 # EdhesiveAggregator
-Consolidate quizzes and assignments from Edhesive AP CS a course
+Consolidate quizzes and assignments from Edhesive AP CS A course
 
 Usage: EdhesiveAggregator <file.csv>
 
