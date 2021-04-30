@@ -1,5 +1,5 @@
 # EdhesiveAggregator
-Consolidate quizzes and assignments from Edhesive AP CS a course
+Consolidate quizzes and assignments from Edhesive AP CS A course
 
 Usage: EdhesiveAggregator <file.csv>
 
@@ -12,6 +12,8 @@ Completes the following batch tasks:
 * Aggregates all Fast Start quizzes by unit
 * Aggregates all Review Questions quizzes by unit
 * Aggregates all Coding Activity assignments by unit
+* Aggregates all Labs
+* Aggregates all multipart FRQs
 * Automatically opens new file in Excel
 
 What results is a much cleaner grade book that's easily entered in Synergy
