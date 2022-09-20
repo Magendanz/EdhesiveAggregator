@@ -21,7 +21,7 @@ namespace EdhesiveAggregator
             // Load CSV file that has been exported from Canvas gradebook
             var dt = DataTable.New.ReadCsv(filename);
 
-            dt.DeleteColumns(new string[] { "ID", "SIS User ID", "SIS Login ID", "Section" });
+            dt.DeleteColumns(new string[] { "ID", "SIS User ID", "SIS Login ID" });
             RemoveEmptyColumns(dt);
             AggregateColumns(dt, LessonFilter("Fast Start"));
             AggregateColumns(dt, LessonFilter("Review Questions"));
