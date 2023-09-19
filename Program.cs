@@ -54,7 +54,7 @@ namespace EdhesiveAggregator
                 if (col.Values[0] == "(read only)")
                     names.Add(col.Name);
             }
-            dt.DeleteColumns(names.ToArray());
+            dt.DeleteColumns(names.Distinct().ToArray());
         }
 
         static void AggregateColumns(MutableDataTable dt, string pattern)

@@ -2,7 +2,8 @@
   "profiles": {
     "EdhesiveAggregator": {
       "commandName": "Project",
-      "commandLineArgs": "2021-04-23T1727_Grades-AP_CS_A_(6d4a7f).csv"
+      "commandLineArgs": "2023-09-18T2104_Grades-AP_CS_A_(d2aa2f).csv",
+      "workingDirectory": "D:\\OneDrive - Bellevue School District\\Grading\\EdhesiveAggregator"
     }
   }
 }
